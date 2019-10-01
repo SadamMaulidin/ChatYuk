@@ -15,6 +15,7 @@ val chatModule = module {
 
     factory { AuthenticationRepository(get(), get()) }
     factory { MessageRepository(get()) }
+    //
 
     factory { LoginPresenter(get()) }
     factory { RegisterPresenter(get()) }
